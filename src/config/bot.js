@@ -139,7 +139,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "S bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -176,11 +176,11 @@ export const botConfig = {
     dailyAmount: 100,
 
     // Work command random payout range.
-    workMin: 10,
+    workMin: 12,
     workMax: 100,
 
     // Beg command random payout range.
-    begMin: 5,
+    begMin: 6,
     begMax: 50,
 
     // Chance to succeed when robbing (0.4 = 40%).
@@ -350,7 +350,7 @@ export const botConfig = {
     // Maximum number of audit entries kept in memory.
     maxInMemoryAuditEntries: 1000,
     // If true, log every verification action.
-    logAllVerifications: true,
+    logAllVerifications: false,
     // If true, preserve verification audit history.
     keepAuditTrail: true,
   },
